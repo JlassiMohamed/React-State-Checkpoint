@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.FullName{
+        color: #2d4722;
+        text-transform: uppercase;
+        font-family: "Oswald", sans-serif;
+        font-size: "1.2em";
+}
+.Bio{
+        text-align: center;
+        color: grey;
+        font-family: "cardo-regular";
+        padding-bottom: 10px;
+}
+.Card{
+  border: 1px solid #ddd;
+  border-radius: 10px !important;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+}
